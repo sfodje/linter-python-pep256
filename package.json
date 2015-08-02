@@ -1,0 +1,52 @@
+{
+  "name": "linter-python-pep257",
+  "main": "./lib/main",
+  "version": "0.0.1",
+  "description": "Linter for Python docstrings.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sfodje/linter-python-pep257"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.50.0"
+  },
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "1.0.0": "provideLinter"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-linter": "^1.0.0"
+  },
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/sfodje/linter-python-pep257/issues"
+  },
+  "homepage": "https://github.com/sfodje/linter-python-pep257/issues",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".coffee": [
+        "lib\\main.coffee"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": [
+      {
+        "paths": [
+          "lib",
+          ""
+        ],
+        "dependencies": {
+          "atom-linter": "^1.0.0"
+        }
+      }
+    ]
+  }
+}
